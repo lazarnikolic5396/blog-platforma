@@ -1,0 +1,19 @@
+/* Kontejner za prikaz detalja posta */
+.postContainer {
+    background-color: var(--surface-color);
+    /* koristi globalnu varijablu za povrsinsku boju */
+    padding: 2rem;
+    /* unutrasnji razmak */
+    border-radius: 8px;
+    /* zaobljene ivice */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    /* blaga senka */
+}
+
+/* Stil za tekst sadrzaja posta */
+.postContent {
+    font-size: 1.1rem;
+    /* malo veci font za bolju citljivost */
+    white-space: pre-wrap;
+    /* cuva razmake i nove redove iz teksta */
+}

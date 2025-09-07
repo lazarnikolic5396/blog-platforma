@@ -1,0 +1,58 @@
+/* Glavni kontejner za admin panel */
+.dashboardContainer {
+    background-color: var(--surface-color);
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    /* blaga senka */
+}
+
+/* Tabela za prikaz postova i aktivnosti */
+.postsTable {
+    width: 100%;
+    margin-top: 2rem;
+    border-collapse: collapse;
+    /* spaja ivice tabele */
+}
+
+/* Stil za redove i kolone */
+.postsTable th,
+.postsTable td {
+    border: 1px solid var(--border-color);
+    padding: 0.75rem;
+    text-align: left;
+}
+
+/* Header red u tabeli */
+.postsTable th {
+    background-color: var(--background-color);
+}
+
+/* Navigacija za tabove (Postovi / Aktivnosti) */
+.tabNav {
+    border-bottom: 2px solid var(--border-color);
+    margin-bottom: 1rem;
+}
+
+/* Dugmici u navigaciji tabova */
+.tabNav button {
+    background: none;
+    /* bez pozadine */
+    border: none;
+    /* bez ivice */
+    padding: 1rem 1.5rem;
+    cursor: pointer;
+    font-size: 1rem;
+    color: var(--secondary-color);
+    border-bottom: 2px solid transparent;
+    /* sakrivena linija dok nije aktivno */
+    margin-bottom: -2px;
+    /* da se linija preklopi sa glavnom ivicom */
+}
+
+/* Aktivni tab je boldovan i ima obojenu donju ivicu */
+.tabNav button.activeTab {
+    color: var(--primary-color);
+    border-bottom-color: var(--primary-color);
+    font-weight: 700;
+}

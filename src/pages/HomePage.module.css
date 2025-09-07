@@ -1,0 +1,43 @@
+/* Kartica koja prikazuje jedan post */
+.postCard {
+    background-color: var(--surface-color);
+    /* bela pozadina */
+    border: 1px solid var(--border-color);
+    /* tanka ivica */
+    border-radius: 8px;
+    /* zaobljene ivice */
+    padding: 1.5rem;
+    /* unutrasnji razmak */
+    margin-bottom: 1.5rem;
+    /* razmak izmedju kartica */
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+    /* blaga senka */
+    transition: box-shadow 0.2s ease-in-out, transform 0.2s ease-in-out;
+    /* animacija hover efekta */
+}
+
+/* Efekat kada se predje misem preko kartice */
+.postCard:hover {
+    transform: translateY(-5px);
+    /* blago podizanje */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    /* jaca senka */
+}
+
+/* Naslov posta */
+.postTitle a {
+    color: var(--text-color);
+    text-decoration: none;
+    /* bez podvlacenja */
+}
+
+/* Hover efekat na naslovu */
+.postTitle a:hover {
+    color: var(--primary-color);
+}
+
+/* Kratki uvodni tekst posta */
+.postExcerpt {
+    margin-top: 0.5rem;
+    color: var(--secondary-color);
+}

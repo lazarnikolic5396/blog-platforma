@@ -1,0 +1,62 @@
+/* Kontejner za formu */
+.formContainer {
+    max-width: 500px;
+    /* maksimalna sirina */
+    margin: 2rem auto;
+    /* centriranje */
+    padding: 2rem;
+    background-color: var(--surface-color);
+    border-radius: 8px;
+    /* zaobljene ivice */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    /* blaga senka */
+}
+
+/* Svaka grupa input + label */
+.formGroup {
+    margin-bottom: 1.5rem;
+}
+
+/* Label iznad input polja */
+.label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+}
+
+/* Stil za input polja */
+.input {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid var(--border-color);
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+/* Fokus efekat na input */
+.input:focus {
+    outline: none;
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);
+}
+
+/* Poruka za greske ispod polja */
+.error {
+    color: var(--danger-color);
+    font-size: 0.875rem;
+    margin-top: 0.25rem;
+}
+
+.input,
+textarea {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid var(--border-color);
+    border-radius: 5px;
+    font-size: 1rem;
+    font-family: inherit;  /* isti font kao i ostatak sajta */
+}
+
+textarea {
+    resize: vertical;
+}
