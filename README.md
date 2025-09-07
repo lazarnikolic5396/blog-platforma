@@ -4,9 +4,9 @@
 
 **Fakultet:** *Metropolitan University*
 
-**Smer i predmet:** *IT - IT354 *
+**Smer i predmet:** *IT - IT354*
 
-**Student:** *\[ime i prezime]*
+**Student:** *Lazar Nikolić*
 
 **Indeks:** *5396*
 
