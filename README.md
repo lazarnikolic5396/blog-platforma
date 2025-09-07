@@ -204,8 +204,4 @@ Umesto JSON-servera moguće je koristiti realni backend (Express, Django, Spring
 * JWT autentikacija.
 * Povezivanje na pravu bazu.
 
----
 
-## 7. Prilozi
-
-* GitHub repozitorijum: *\[unesi link]*
