@@ -1,0 +1,52 @@
+/* Stil za glavni header deo */
+.header {
+    background-color: var(--surface-color);
+    /* pozadinska boja iz root varijabli */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* blaga senka ispod headera */
+    padding: 1rem 2rem;
+    /* unutrasnji razmak gore/dole i levo/desno */
+}
+
+/* Navigacioni meni u headeru */
+.nav {
+    display: flex;
+    /* stavlja elemente u jedan red */
+    justify-content: space-between;
+    /* razvlaci elemente levo i desno */
+    align-items: center;
+    /* centrira vertikalno */
+    max-width: 960px;
+    /* ogranicava sirinu */
+    margin: 0 auto;
+    /* centrira ceo nav */
+}
+
+/* Linkovi u navigaciji */
+.navLinks a {
+    margin-right: 1.5rem;
+    /* razmak izmedju linkova */
+    font-weight: 500;
+    /* polu-bold */
+    font-size: 1.1rem;
+    /* malo veci font */
+}
+
+/* Deo desno za akcije korisnika */
+.userActions {
+    display: flex;
+    align-items: center;
+    /* centrira dugmice i tekst vertikalno */
+}
+
+/* Tekst sa imenom korisnika */
+.userActions span {
+    margin-right: 1rem;
+    font-weight: 500;
+}
+
+/* Linkovi i dugmici u user akcijama */
+.userActions a {
+    margin-left: 1rem;
+    /* razmak izmedju linkova */
+}
