@@ -1,0 +1,56 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "admin",
+      "email": "admin@blog.com",
+      "password": "adminpassword",
+      "role": "admin"
+    },
+    {
+      "id": "2",
+      "username": "peraperic",
+      "email": "pera@blog.com",
+      "password": "perapassword",
+      "role": "user"
+    }
+  ],
+  "posts": [
+    {
+      "id": "1",
+      "title": "Uvod u React",
+      "content": "React je popularna JavaScript biblioteka za izgradnju korisničkih interfejsa. Razvijen od strane Facebook-a, React omogućava programerima da kreiraju velike web aplikacije koje mogu da menjaju podatke, bez ponovnog učitavanja stranice. Glavna svrha React-a je da bude brz, skalabilan i jednostavan.",
+      "authorId": 1,
+      "createdAt": "2023-10-27T10:00:00Z"
+    },
+    {
+      "id": "2",
+      "title": "State Management u React-u",
+      "content": "Upravljanje stanjem (state management) je ključni koncept u modernim web aplikacijama. U React-u, stanje se može upravljati lokalno unutar komponente pomoću `useState` hook-a, ili globalno pomoću Context API-ja ili biblioteka kao što su Redux ili Zustand. Pravilan izbor alata zavisi od kompleksnosti aplikacije.",
+      "authorId": 1,
+      "createdAt": "2023-10-28T12:30:00Z"
+    },
+    {
+      "id": "a143",
+      "title": "Final Test",
+      "content": "This is final test!",
+      "authorId": "1",
+      "createdAt": "2025-09-07T19:18:59.280Z"
+    }
+  ],
+  "comments": [],
+  "login_activities": [
+    {
+      "id": "1",
+      "userId": 2,
+      "username": "peraperic",
+      "timestamp": "2025-09-03T09:15:00Z"
+    },
+    {
+      "id": "c5db",
+      "userId": "1",
+      "username": "admin",
+      "timestamp": "2025-09-07T19:56:39.816Z"
+    }
+  ]
+}
