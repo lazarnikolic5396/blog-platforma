@@ -1,11 +1,11 @@
-# Blog platforma (React + JSON Server)
+# Blog platforma
 
 ## Naslovna strana
 
 **Fakultet:** *\[unesi naziv]*
 **Smer i predmet:** *\[unesi smer/predmet]*
 **Student:** *\[ime i prezime]*
-**Indeks:** *\[broj indeksa]*
+**Indeks:** *\5396*
 **Naziv projekta:** Blog platforma
 **Datum predaje:** *\[dd.mm.yyyy]*
 
