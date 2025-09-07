@@ -2,12 +2,17 @@
 
 ## Naslovna strana
 
-**Fakultet:** *\[unesi naziv]*
-**Smer i predmet:** *\[unesi smer/predmet]*
+**Fakultet:** *Metropolitan University*
+
+**Smer i predmet:** *IT - IT354 *
+
 **Student:** *\[ime i prezime]*
-**Indeks:** *\5396*
+
+**Indeks:** *5396*
+
 **Naziv projekta:** Blog platforma
-**Datum predaje:** *\[dd.mm.yyyy]*
+
+**Datum predaje:** *\[07.09.2025.]*
 
 ---
 
