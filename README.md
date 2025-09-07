@@ -12,7 +12,7 @@
 
 **Naziv projekta:** Blog platforma
 
-**Datum predaje:** *\[07.09.2025.]*
+**Datum predaje:** *07.09.2025.*
 
 ---
 
